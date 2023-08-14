@@ -1,0 +1,31 @@
+{
+  "name": "npm-game",
+  "version": "1.0.0",
+  "description": "Browser based game",
+  "main": "task.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sssinty/npm-game.git"
+  },
+  "keywords": [
+    "game"
+  ],
+  "author": "Kirill",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sssinty/npm-game/issues"
+  },
+  "homepage": "https://github.com/sssinty/npm-game#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.22.10",
+    "@babel/core": "^7.22.10",
+    "@babel/preset-env": "^7.22.10"
+  },
+  "dependencies": {
+    "core-js": "^3.32.0"
+  }
+}
