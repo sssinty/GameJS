@@ -1,4 +1,4 @@
-import Daemon from '../js/Class/Daemon';
+import Daemon from '../../js/Class/Daemon';
 
 test('checking the operation of the parent class and methods', () => {
   const newHero = new Daemon('name');

@@ -20,6 +20,6 @@ const character = {
       }
     ]	
   }
-test('', () => {
+test('display available special attack options', () => {
     expect(getSpecialAttacks(character)).toEqual(getSpecialAttacks(character));
   })
