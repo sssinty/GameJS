@@ -3,11 +3,12 @@ export default class Validator {
       this.userName = userName;
   }
   validateUsername(userName) {
-    const resultUserName = /^(?!.*\d$)(?!\d.*$)^(?!_.*$)^(?!-.*$)(?!.*_$)(?!.*-$)(?!.*\d{4})[-\w_,.!? ]+$/;
-    if(userName.match(resultUserName)) {
-      return userName;
+    if (userName.match(/\d{4,4}/)) {
+      return true;
+    } if (userName.match(/^[a-z][\w-]+[a-z]$/i)) {
+      return true;
     } else {
-      throw new Error('Имя не должно содержать более трёх цифр, а также начинаться и заканчиваться цифрами, знаками - и _');
+      return false;
     }
   }
 
