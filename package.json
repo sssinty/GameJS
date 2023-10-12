@@ -1,8 +1,10 @@
 {
+  
   "name": "moduls-hw",
   "version": "1.0.0",
   "description": "Browser based game",
   "main": "index.js",
+  "type": "module",
   "git repository": "https://github.com/sssinty/npm-game.git",
   "keywords": "game",
   "scripts": {
@@ -32,4 +34,5 @@
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^4.15.1"
   }
+
 }
