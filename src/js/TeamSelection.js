@@ -20,4 +20,10 @@ export default class Team {
         this.members = Array.from(this.members)
         return this.members
     }
+    *[Symbol.iterator]() {
+        for(let index = this.members; index <= this.members.length; index++) {
+            yield index
+        }
+    }
+
 }
