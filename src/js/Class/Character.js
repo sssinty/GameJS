@@ -1,6 +1,6 @@
 export default class Character {
   constructor(name, type) {
-    const typeObject = ['Bowerman', 'Swordsman', 'Magician', 'Undead', 'Zombie', 'Daemon'];
+    const typeObject = ['Bowman', 'Swordsman', 'Magician', 'Undead', 'Zombie', 'Daemon'];
 
     if (name.length < 2 || name.length > 10) {
       throw new Error('Имя должно содержать от 2 до 10 символов!');
